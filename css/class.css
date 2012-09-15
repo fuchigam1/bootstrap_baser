@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * クラス
+ */
+
+/* display
+---------------------------------------- */
+.display-none {
+	display:none;
+}
+
+/* adjustment
+---------------------------------------- */
+i {
+	margin-right: 7px;
+}
+
+/* RecentNews
+---------------------------------------- */
+#RecentNews li {
+	line-height: 25px;
+}
+#RecentNews .date {
+	margin-right: 7px;
+}
