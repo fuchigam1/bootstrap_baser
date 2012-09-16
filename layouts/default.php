@@ -20,6 +20,20 @@
 	'jquery.colorbox-min',
 	'startup'
 )) ?>
+<?php $bcBaser->js(array(
+	'bootstrap-transition',
+	'bootstrap-alert',
+	'bootstrap-modal',
+	'bootstrap-dropdown',
+	'bootstrap-scrollspy',
+	'bootstrap-tab',
+	'bootstrap-tooltip',
+	'bootstrap-popover',
+	'bootstrap-button',
+	'bootstrap-collapse',
+	'bootstrap-carousel',
+	'bootstrap-typeahead'
+)) ?>
 <?php $bcBaser->scripts() ?>
 <?php $bcBaser->element('google_analytics') ?>
 </head>

@@ -30,4 +30,4 @@ $bcBaser->setDescription($blog->getDescription());
 <?php endif; ?>
 
 <!-- pagination -->
-<?php $bcBaser->pagination('simple'); ?>
+<?php $bcBaser->pagination('simple') ?>
