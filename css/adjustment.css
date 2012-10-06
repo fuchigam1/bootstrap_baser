@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/**
+ * 調整用スタイル
+ */
+
+/* mail
+---------------------------------------------------*/
+.col-input input {
+	margin-bottom: 7px;
+}
+.col-input label {
+	display: inline;
+}
+
+.col-input input[type="radio"] {
+	margin-right: 7px;
+	margin-bottom: 5px;
+}
+
+.required {
+	display: inline;
+}

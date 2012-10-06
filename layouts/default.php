@@ -13,7 +13,7 @@
 <?php $bcBaser->metaKeywords() ?>
 <?php $bcBaser->icon() ?>
 <?php $bcBaser->rss('新着情報 RSS 2.0', '/news/index.rss') ?>
-<?php $bcBaser->css(array('import', 'colorbox/colorbox')) ?>
+<?php $bcBaser->css(array('import', 'adjustment', 'colorbox/colorbox')) ?>
 <?php $bcBaser->js(array(
 	'jquery-1.8.1.min',
 	'bootstrap.min',
