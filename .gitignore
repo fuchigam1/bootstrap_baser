@@ -1,1 +1,13 @@
 pages/*
+!pages/empty
+
+## IDE files and folders
+.cache
+.project
+.settings
+nbproject
+.idea
+.DS_Store
+
+## Allow 'empty' files
+!empty

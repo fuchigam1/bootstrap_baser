@@ -8,7 +8,7 @@ class BootstrapBaserHelper extends AppHelper {
  * @param string $separator
  * @return void
  * @access public
- * <a href="#"><span class="label label-info">Snipp</span></a> 
+ * 
  */
 	function tag($tags, $options = array()) {
 
