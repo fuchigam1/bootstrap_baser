@@ -10,18 +10,21 @@ class BootstrapBaserHelper extends AppHelper {
  * @access public
  * <a href="#"><span class="label label-info">Snipp</span></a> 
  */
-	function tag($tags, $separator = ',') {
+	function tag($tags, $options = array()) {
 
-		$tagLinks = explode($separator, $tags);
+		$options = array_merge(
+			array('separator' => ','),
+			$options
+		);
+		$tagLinks = explode($options['separator'], $tags);
 
 		if($tagLinks) {
 
 			foreach ($tagLinks as $key => $tagLink) {
-				$replace = '<span class="label label-info">{$1}</span>';
-				$tagLinks[$key] = preg_replace('/^<a.*\">($1)<\/a>/', $replace, $tagLink);
+				$tagLinks[$key] = '<span class="tag-separate"><i class="icon-tag"></i>' . $tagLink . '</span>';
 			}
 
-			echo implode($separator, $tagLinks);
+			echo implode($options['separator'], $tagLinks);
 		} else {
 			echo '';
 		}
