@@ -7,7 +7,7 @@
 <footer>
 	<div class="container">
 		<?php if(!$bcBaser->isTop()): ?>
-		<div class="pull-right"><a href="#page">To PageTop</a></div>
+		<div class="pull-right"><a href="#<?php $bcBaser->contentsName() ?>">To PageTop</a></div>
 		<?php endif ?>
 
 		<?php $bcBaser->element('global_menu_footer') ?>

@@ -3,6 +3,22 @@
  * 調整用スタイル
  */
 
+/* ToolBar
+---------------------------------------------------*/
+#ToolBar img.btn {
+	border-radius: 0 !important;
+	background-color: #333333 !important;
+	padding: 0px !important;
+	border-width: 0 !important;
+	background-image: none !important;
+	box-shadow: none !important;
+	line-height: none !important;
+}
+#ToolBar img.btn:hover,
+#ToolBar img.btn:active {
+	background-color: #444 !important;
+}
+
 /* mail
 ---------------------------------------------------*/
 .col-input input {

@@ -30,8 +30,6 @@ $this->viewVars['blogContent'] = $data['blogContent'];
 App::import('Helper','Blog.Blog');
 $blog = new BlogHelper();
 ?>
-
-<div class="well sidebar-nav">
 <div class="widget widget-blog-categories-archives widget-blog-categories-archives-<?php echo $id ?> blog-widget">
 <?php if($name && $use_title): ?>
 	<ul class="nav nav-list">
@@ -49,5 +47,4 @@ $blog = new BlogHelper();
 <?php else: ?>
 	<?php echo $blog->getCategoryList($categories, $depth, $view_count) ?>
 <?php endif ?>
-</div>
 </div>

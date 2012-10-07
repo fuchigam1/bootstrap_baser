@@ -18,6 +18,7 @@
 	'jquery-1.8.1.min',
 	'bootstrap.min',
 	'jquery.colorbox-min',
+	'yuga',
 	'startup'
 )) ?>
 <?php $bcBaser->js(array(

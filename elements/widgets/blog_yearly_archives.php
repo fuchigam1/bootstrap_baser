@@ -28,7 +28,6 @@ $postedDates = $data['postedDates'];
 $blogContent = $data['blogContent'];
 $baseCurrentUrl = $blogContent['BlogContent']['name'].'/archives/date/';
 ?>
-<div class="well sidebar-nav">
 <div class="widget widget-blog-yearly-archives widget-blog-yearly-archives-<?php echo $id ?> blog-widget">
 <?php if($name && $use_title): ?>
 	<ul class="nav nav-list">
@@ -62,5 +61,4 @@ $baseCurrentUrl = $blogContent['BlogContent']['name'].'/archives/date/';
 		<?php endforeach; ?>
 	</ul>
 	<?php endif; ?>
-</div>
 </div>

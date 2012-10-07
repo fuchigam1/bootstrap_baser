@@ -16,7 +16,6 @@ $recentEntries = $data['recentEntries'];
 $blogContent = $data['blogContent'];
 $baseCurrentUrl = $blogContent['BlogContent']['name'].'/archives/';
 ?>
-<div class="well sidebar-nav">
 <div class="widget widget-blog-recent-entries widget-blog-recent-entries-<?php echo $id ?> blog-widget">
 <?php if($name && $use_title): ?>
 	<ul class="nav nav-list">
@@ -37,5 +36,4 @@ $baseCurrentUrl = $blogContent['BlogContent']['name'].'/archives/';
 		<?php endforeach; ?>
 	</ul>
 	<?php endif; ?>
-</div>
 </div>
