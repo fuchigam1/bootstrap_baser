@@ -12,15 +12,20 @@ bootstrap_baser は、国産オープンソースである [baserCMS](http://bas
 	* `bootstrap_baser テーマを適用します。`
 
 
-## management ##
+## Initialize Data ##
+* bootstrap_baser には、baserCMS インストール時に選択できる初期データを備えてます。
+* インストール時に選択する初期データの中から「BootstrapBaser」を選ぶと適用されます。
+	* `baserCMS 2.0.5 以降で利用可`
+
+
+## Management ##
 
 * [Twitter](http://www.redmine.org)
 * [progress](http://project.materializing.net/projects/show/bootstrap_baser)
 
 
-## Thanks ##
+## Thanks and Respect ##
 * [baserCMS](http://basercms.net/)
 * [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
 * [Bootswatch](http://bootswatch.com/)
 * [CakePHP](http://cakephp.jp/)
-
