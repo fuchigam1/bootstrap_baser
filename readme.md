@@ -6,7 +6,6 @@ bootstrap_baser は、国産オープンソースである [baserCMS](http://bas
 
 
 ## Installation ##
-
 1. 圧縮ファイルをDLして解凍したら、/app/webroot/themed/bootstrap_baser の中に配置します。
 2. baserCMS管理システムに入ります。
 	* `テーマ管理に入ります。`
@@ -15,7 +14,7 @@ bootstrap_baser は、国産オープンソースである [baserCMS](http://bas
 
 ## management ##
 
-* [Twitter]([Redmine](http://www.redmine.org)
+* [Twitter](http://www.redmine.org)
 * [progress](http://project.materializing.net/projects/show/bootstrap_baser)
 
 
