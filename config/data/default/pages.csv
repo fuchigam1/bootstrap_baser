@@ -1,7 +1,5 @@
 "id","sort","name","title","description","contents","page_category_id","status","url","draft","author_id","publish_begin","publish_end","exclude_search","modified","created"
-"","1","index","","","
-
-<div class=""row-fluid"">
+"","1","index","","","<div class=""row-fluid"">
 	<div class=""span8"" id=""RecentNews"">
 		<h2>RecentNews</h2>
 		<?php $bcBaser->blogPosts(""news"", 5) ?></div>
@@ -655,10 +653,8 @@
   </div>
 
 
-</section>
-","","1","/index","","1","","","","",""
-"","2","about","会社案内","baserCMS inc.の会社案内ページ","
-<h2 class=""contents-head"">会社案内</h2>
+</section>","","1","/index","","1","","","0","",""
+"","2","about","会社案内","baserCMS inc.の会社案内ページ","<h2 class=""contents-head"">会社案内</h2>
 <h3 class=""contents-head"">会社データ</h3>
 <div class=""section"">
 	<table class=""table table-striped table-striped"">
@@ -684,8 +680,7 @@
 <h3 class=""contents-head"">アクセスマップ</h3>
 <div class=""section"">
 	<?php $bcBaser->element(""googlemaps"", array(""width"" => 690)) ?>
-</div>
-","","1","/about","","1","","","","",""
+</div>","","1","/about","","1","","","0","",""
 "","3","service","サービス","baserCMS inc.のサービス紹介ページ。","<h2 class=""contents-head"">サービス</h2>
 
 <div class=""section"">
@@ -713,15 +708,13 @@
 サービスの案内文がはいります。サービスの案内文がはいります。サービスの案内文がはいります。
 サービスの案内文がはいります。サービスの案内文がはいります。サービスの案内文がはいります。
 </p>
-</div>
-","","1","/service","","1","","","","",""
+</div>","","1","/service","","1","","","0","",""
 "","4","sitemap","サイトマップ","baserCMS inc.のサイトマップページ","<h2 class=""contents-head"">サイトマップ</h2>
 <?php $bcBaser->sitemap() ?>
 <ul class=""section"">
 	<li><?php $bcBaser->link(""新着情報"",""/news/index"") ?></li>
 	<li><?php $bcBaser->link(""お問い合わせ"",""/contact/index"") ?>	</li>
-</ul>
-","","1","/sitemap","","1","","","","",""
+</ul>","","1","/sitemap","","1","","","0","",""
 "","5","index","","","<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">メインメニュー</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
@@ -737,10 +730,8 @@
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">baserCMS NEWS</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
-<?php $bcBaser->feed(1) ?>
-","1","1","/mobile/index","","1","","","","",""
-"","6","index","","","
-<div id=""news"" class=""clearfix"">
+<?php $bcBaser->feed(1) ?>","1","1","/mobile/index","","1","","","0","",""
+"","6","index","","","<div id=""news"" class=""clearfix"">
 <div class=""news"" style=""margin-right:28px;"">
 <h2 id=""newsHead01"">NEWS RELEASE</h2>
 <div class=""body"">
@@ -753,7 +744,7 @@
 <?php $bcBaser->js('/s/feed/ajax/1') ?>
 </div>
 </div>
-</div>","2","1","/smartphone/index","","1","","","","",""
+</div>","2","1","/smartphone/index","","1","","","0","",""
 "","7","about","会社案内","baserCMS inc.の会社案内ページ","<h2 class=""contents-head"">会社案内</h2>
 <h3 class=""contents-head"">会社データ</h3>
 <div class=""section"">
@@ -769,8 +760,7 @@ WEBシステム開発事業（ダミー）</td></tr>
 <h3 class=""contents-head"">アクセスマップ</h3>
 <div class=""section"">
 <?php $bcBaser->element(""googlemaps"", array(""width"" => 585)) ?>
-</div>
-","2","1","/smartphone/about","","1","","","","",""
+</div>","2","1","/smartphone/about","","1","","","0","",""
 "","8","service","サービス","baserCMS inc.のサービス紹介ページ。","<h2 class=""contents-head"">サービス</h2>
 <div class=""section"">
 <p>
@@ -795,12 +785,10 @@ WEBシステム開発事業（ダミー）</td></tr>
 サービスの案内文がはいります。サービスの案内文がはいります。サービスの案内文がはいります。
 サービスの案内文がはいります。サービスの案内文がはいります。サービスの案内文がはいります。
 </p>
-</div>
-","2","1","/smartphone/service","","1","","","","",""
+</div>","2","1","/smartphone/service","","1","","","0","",""
 "","9","sitemap","サイトマップ","baserCMS inc.のサイトマップページ","<h2 class=""contents-head"">サイトマップ</h2>
 <?php $bcBaser->sitemap() ?>
 <ul class=""section sitemap"">
 	<li><?php $bcBaser->link(""新着情報"",""/s/news/index"") ?></li>
 	<li><?php $bcBaser->link(""お問い合わせ"",""/s/contact/index"") ?>	</li>
-</ul>
-","2","1","/smartphone/sitemap","","1","","","","",""
+</ul>","2","1","/smartphone/sitemap","","1","","","0","",""
