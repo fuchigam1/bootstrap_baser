@@ -1,5 +1,8 @@
 pages/*
 !pages/empty
+css/admin
+img/admin
+js/admin
 
 ## IDE files and folders
 .cache
