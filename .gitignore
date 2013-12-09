@@ -1,5 +1,5 @@
-pages/*
-!pages/empty
+Pages/*
+!Pages/empty
 css/admin
 img/admin
 js/admin
