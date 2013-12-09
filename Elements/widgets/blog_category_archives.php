@@ -28,7 +28,7 @@ $data = $this->requestAction($actionUrl);
 $categories = $data['categories'];
 $this->viewVars['blogContent'] = $data['blogContent'];
 App::import('Helper','Blog.Blog');
-$blog = new BlogHelper();
+$blog = new BlogHelper($this);
 ?>
 <div class="widget widget-blog-categories-archives widget-blog-categories-archives-<?php echo $id ?> blog-widget">
 <?php if($name && $use_title): ?>
