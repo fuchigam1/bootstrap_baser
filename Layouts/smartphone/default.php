@@ -39,9 +39,7 @@
 	</div>
 
 	<div>
-		<?php if(!empty($widgetArea)): ?>
-		<?php $this->BcBaser->element('widget_area',array('no'=>$widgetArea)) ?>
-		<?php endif ?>
+		<?php $this->BcBaser->widgetArea(); ?>
 	</div>
 
 	<section id="ToTop">

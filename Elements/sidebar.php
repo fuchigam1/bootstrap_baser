@@ -9,8 +9,6 @@
 		<?php $this->BcBaser->element('global_menu') ?>
 	</div><!--/.well -->
 
-<?php if(!empty($widgetArea)): ?>
-	<?php $this->BcBaser->element('widget_area',array('no'=>$widgetArea)) ?>
-<?php endif ?>
+	<?php $this->BcBaser->widgetArea(); ?>
 
 </div><!--/span-->
